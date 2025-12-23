@@ -1,0 +1,9 @@
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/interbotix_xsarm_dual_uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/test.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/edit_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/rebuild_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/list_install_components.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/install.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/install/local.dir
+/workspace/koch_control/build/interbotix_xsarm_dual/CMakeFiles/install/strip.dir

@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/workspace/koch_control/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/dynamixel_workbench_toolbox -- -j32 -l32
+[0.117s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o[0m
+[0.117s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_tool.cpp.o[0m
+[0.117s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_workbench.cpp.o[0m
+[0.118s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o[0m
+[0.118s] [01m[K/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)[m[K’:
+[0.118s] [01m[K/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:776:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdata_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[0.118s]   776 |   uint8_t [01;35m[Kdata_read[m[K[length];
+[0.118s]       |           [01;35m[K^~~~~~~~~[m[K
+[0.119s] [01m[K/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)[m[K’:
+[0.119s] [01m[K/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp:1012:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmulti_parameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[0.119s]  1012 |   uint8_t [01;35m[Kmulti_parameter[m[K[4*data_num_for_each_id];
+[0.119s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.171s] [100%] [32m[1mLinking CXX shared library libdynamixel_workbench_toolbox.so[0m
+[0.218s] [100%] Built target dynamixel_workbench_toolbox
+[0.223s] Invoked command in '/workspace/koch_control/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/dynamixel_workbench_toolbox -- -j32 -l32
+[0.224s] Invoking command in '/workspace/koch_control/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/dynamixel_workbench_toolbox
+[0.227s] -- Install configuration: ""
+[0.227s] -- Execute custom install script
+[0.227s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[0.230s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[0.233s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[0.237s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[0.240s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[0.244s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[0.248s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[0.252s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[0.256s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[0.260s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[0.264s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[0.268s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[0.272s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[0.275s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[0.279s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[0.282s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[0.285s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[0.289s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[0.292s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[0.295s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.299s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.302s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[0.305s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[0.308s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[0.313s] -- Symlinking: /workspace/koch_control/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[0.318s] Invoked command in '/workspace/koch_control/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/dynamixel_workbench_toolbox

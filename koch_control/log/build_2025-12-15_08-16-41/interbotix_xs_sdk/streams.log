@@ -1,0 +1,84 @@
+[0.007s] Invoking command in '/workspace/koch_control/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/interbotix_xs_sdk
+[0.029s] -- The C compiler identification is GNU 11.4.0
+[0.053s] -- The CXX compiler identification is GNU 11.4.0
+[0.057s] -- Detecting C compiler ABI info
+[0.086s] -- Detecting C compiler ABI info - done
+[0.089s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.089s] -- Detecting C compile features
+[0.090s] -- Detecting C compile features - done
+[0.091s] -- Detecting CXX compiler ABI info
+[0.126s] -- Detecting CXX compiler ABI info - done
+[0.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.129s] -- Detecting CXX compile features
+[0.129s] -- Detecting CXX compile features - done
+[0.133s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.201s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.242s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.243s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.262s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.266s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.339s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.352s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.373s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.377s] -- Looking for pthread.h
+[0.411s] -- Looking for pthread.h - found
+[0.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.442s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.443s] -- Found Threads: TRUE  
+[0.463s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.464s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.476s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.493s] -- Found interbotix_xs_msgs: 0.0.0 (/workspace/koch_control/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[0.506s] -- Found interbotix_xs_driver: 0.3.7 (/workspace/koch_control/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake)
+[0.509s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.556s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.557s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.557s] -- Configured cppcheck include dirs: /workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/include
+[0.557s] -- Configured cppcheck exclude dirs and/or files: 
+[0.557s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.557s] -- Configured cpplint exclude dirs and/or files: 
+[0.558s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.558s] -- Added test 'lint_cmake' to check CMake code style
+[0.558s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.558s] -- Added test 'uncrustify' to check C / C++ code style
+[0.558s] -- Configured uncrustify additional arguments: 
+[0.559s] -- Added test 'xmllint' to check XML markup files
+[0.559s] -- Configuring done
+[0.567s] -- Generating done
+[0.569s] -- Build files have been written to: /workspace/koch_control/build/interbotix_xs_sdk
+[0.575s] Invoked command in '/workspace/koch_control/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/interbotix_xs_sdk
+[0.575s] Invoking command in '/workspace/koch_control/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xs_sdk -- -j32 -l32
+[0.599s] [ 33%] [32mBuilding CXX object CMakeFiles/xs_sdk.dir/src/xs_sdk.cpp.o[0m
+[0.599s] [ 66%] [32mBuilding CXX object CMakeFiles/xs_sdk.dir/src/xs_sdk_obj.cpp.o[0m
+[9.467s] [100%] [32m[1mLinking CXX executable xs_sdk[0m
+[9.896s] [100%] Built target xs_sdk
+[9.901s] Invoked command in '/workspace/koch_control/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xs_sdk -- -j32 -l32
+[9.902s] Invoking command in '/workspace/koch_control/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xs_sdk
+[9.905s] -- Install configuration: ""
+[9.905s] -- Execute custom install script
+[9.905s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/lib/interbotix_xs_sdk/xs_sdk
+[9.909s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/lib/interbotix_xs_sdk/xs_sdk_sim.py
+[9.914s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk//config/mode_configs_template.yaml
+[9.917s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk//config/motor_configs_template.yaml
+[9.920s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_sdk
+[9.924s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_sdk
+[9.927s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/ament_prefix_path.sh
+[9.930s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/ament_prefix_path.dsv
+[9.933s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/path.sh
+[9.936s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/path.dsv
+[9.939s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.bash
+[9.942s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.sh
+[9.946s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.zsh
+[9.949s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.dsv
+[9.953s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/package.dsv
+[9.956s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/ament_index/resource_index/packages/interbotix_xs_sdk
+[9.959s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/cmake/interbotix_xs_sdkConfig.cmake
+[9.962s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/cmake/interbotix_xs_sdkConfig-version.cmake
+[9.966s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_sdk/share/interbotix_xs_sdk/package.xml
+[9.970s] Invoked command in '/workspace/koch_control/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xs_sdk

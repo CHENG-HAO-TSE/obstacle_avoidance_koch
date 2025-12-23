@@ -1,0 +1,1 @@
+/workspace/koch_control/build/interbotix_gravity_compensation/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<robot name="low_cost_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:property name="robot_model"
+    value="low_cost_robot"
+    scope="global"/>
+  <xacro:property name="dof"
+    value="6"
+    scope="global"/>
+
+  <xacro:arg name="robot_name"                      default="${robot_model}"/>
+  <xacro:arg name="base_link_frame"                 default="base_link"/>
+  <xacro:arg name="use_gripper"                     default="true"/>
+  <xacro:arg name="show_ar_tag"                     default="false"/>
+  <xacro:arg name="show_gripper_bar"                default="true"/>
+  <xacro:arg name="show_gripper_fingers"            default="true"/>
+  <xacro:arg name="use_world_frame"                 default="false"/>
+  <xacro:arg name="external_urdf_loc"               default=""/>
+  <xacro:arg name="hardware_type"                   default="actual"/>
+
+  <xacro:property name="urdf_loc"                   value="$(arg external_urdf_loc)"/>
+  <xacro:property name="hardware_type"              value="$(arg hardware_type)"/>
+  <xacro:property name="pi_offset"                  value="0.00001"/>
+
+  <xacro:property name="joint1_limit_effort"         value="10"/>
+  <xacro:property name="joint1_limit_lower"          value="${-pi + pi_offset}"/>
+  <xacro:property name="joint1_limit_upper"          value="${pi - pi_offset}"/>
+  <xacro:property name="joint1_limit_vel"            value="${pi}"/>
+
+  <xacro:property name="joint2_limit_effort"         value="10"/>
+  <xacro:property name="joint2_limit_lower"          value="${-pi + pi_offset}"/>
+  <xacro:property name="joint2_limit_upper"          value="${pi - pi_offset}"/>
+  <xacro:property name="joint2_limit_vel"            value="${pi}"/>
+
+  <xacro:property name="joint3_limit_effort"         value="10"/>
+  <xacro:property name="joint3_limit_lower"          value="${-pi + pi_offset}"/>
+  <xacro:property name="joint3_limit_upper"          value="${pi - pi_offset}"/>
+  <xacro:property name="joint3_limit_vel"            value="${pi}"/>
+
+  <xacro:property name="joint4_limit_effort"         value="5"/>
+  <xacro:property name="joint4_limit_lower"          value="${-pi + pi_offset}"/>
+  <xacro:property name="joint4_limit_upper"          value="${pi - pi_offset}"/>
+  <xacro:property name="joint4_limit_vel"            value="${pi}"/>
+
+  <xacro:property name="joint5_limit_effort"         value="5"/>
+  <xacro:property name="joint5_limit_lower"          value="${-pi + pi_offset}"/>
+  <xacro:property name="joint5_limit_upper"          value="${pi - pi_offset}"/>
+  <xacro:property name="joint5_limit_vel"            value="${pi}"/>
+
+  <xacro:property name="gripper_limit_vel"          value="${pi}"/>
+  <xacro:property name="joint_gripper_limit_effort"  value="5"/>
+  <xacro:property name="joint_gripper_limit_lower"   value="${-pi + pi_offset}"/>
+  <xacro:property name="joint_gripper_limit_upper"   value="${pi - pi_offset}"/>
+  <xacro:property name="joint_gripper_limit_vel"     value="1"/>
+
+  <material name="silver">
+    <color rgba="0.75 0.75 0.75 1"/>
+  </material>
+
+  <xacro:if value="$(arg use_world_frame)">
+    <link name="world"/>
+    <joint name="fixed" type="fixed">
+      <parent link="world"/>
+      <child link="$(arg robot_name)/$(arg base_link_frame)"/>
+    </joint>
+  </xacro:if>
+
+  <link name="$(arg robot_name)/$(arg base_link_frame)">
+    <inertial>
+      <origin xyz="-0.00017023202404845418 -0.021341439639662032 0.014423161616418092" rpy="0 0 0"/>
+      <mass value="0.5164575020815119"/>
+      <inertia ixx="0.000304" iyy="0.000283" izz="0.000441" ixy="-2e-06" iyz="-6.2e-05" ixz="-1e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <origin xyz="0.0 0.0 0.039" rpy="0 0 0"/>
+    <parent link="$(arg robot_name)/$(arg base_link_frame)"/>
+    <child link="$(arg robot_name)/link1_1"/>
+    <axis xyz="0.0 0.0 1.0"/>
+    <limit
+      effort="${joint1_limit_effort}"
+      lower="${joint1_limit_lower}"
+      upper="${joint1_limit_upper}"
+      velocity="${joint1_limit_vel}"/>
+    <dynamics friction="0.1" damping="0.1"/>
+  </joint>
+
+  <link name="$(arg robot_name)/link1_1">
+    <inertial>
+      <origin xyz="-0.0006216635769899589 -0.011914175885676576 0.015400174574576098" rpy="0 0 0"/>
+      <mass value="0.3956063453928257"/>
+      <inertia ixx="0.000112" iyy="7.5e-05" izz="0.000123" ixy="0.0" iyz="-1e-06" ixz="0.0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 -0.039" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link1_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.039" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link1_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <origin xyz="-0.0002 -0.0 0.0173" rpy="0 0 0"/>
+    <parent link="$(arg robot_name)/link1_1"/>
+    <child link="$(arg robot_name)/link2_1"/>
+    <axis xyz="-1.0 -0.0 0.0"/>
+    <limit
+      effort="${joint2_limit_effort}"
+      lower="${joint2_limit_lower}"
+      upper="${joint2_limit_upper}"
+      velocity="${joint2_limit_vel}"/>
+    <dynamics friction="0.1" damping="0.1"/>
+  </joint>
+
+  <link name="$(arg robot_name)/link2_1">
+    <inertial>
+      <origin xyz="0.00015778948024297947 -0.0012168309893684582 0.07161179945761596" rpy="0 0 0"/>
+      <mass value="0.3916070272991037"/>
+      <inertia ixx="0.00052" iyy="0.000534" izz="8.4e-05" ixy="-1e-06" iyz="-3.7e-05" ixz="-2e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0.0002 0 -0.0563" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link2_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 0 -0.0563" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link2_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint3" type="revolute">
+    <origin xyz="0.00025 0.014791 0.108347" rpy="0 0 0"/>
+    <parent link="$(arg robot_name)/link2_1"/>
+    <child link="$(arg robot_name)/link3_1"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit
+      effort="${joint3_limit_effort}"
+      lower="${joint3_limit_lower}"
+      upper="${joint3_limit_upper}"
+      velocity="${joint3_limit_vel}"/>
+    <dynamics friction="0.1" damping="0.1"/>
+  </joint>
+
+  <link name="$(arg robot_name)/link3_1">
+    <inertial>
+      <origin xyz="7.243666489899892e-05 0.05069893196527342 0.002850799344132765" rpy="0 0 0"/>
+      <mass value="0.4404689720232285"/>
+      <inertia ixx="0.000302" iyy="5.5e-05" izz="0.000322" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
+    </inertial>
+    <visual>
+      <origin xyz="-0.00005 -0.014791 -0.164647" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link3_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.00005 -0.014791 -0.164647" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link3_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint4" type="revolute">
+    <origin xyz="0.000125 0.090467 0.002747" rpy="0 0 0"/>
+    <parent link="$(arg robot_name)/link3_1"/>
+    <child link="$(arg robot_name)/link4_1"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit
+      effort="${joint4_limit_effort}"
+      lower="${joint4_limit_lower}"
+      upper="${joint4_limit_upper}"
+      velocity="${joint4_limit_vel}"/>
+    <dynamics friction="0.1" damping="0.1"/>
+  </joint>
+
+  <link name="$(arg robot_name)/link4_1">
+    <inertial>
+      <origin xyz="-0.00473855751324301 8.608301182447264e-06 -0.02657822907239915" rpy="0 0 0"/>
+      <mass value="0.15464443104629289"/>
+      <inertia ixx="2.4e-05" iyy="3.9e-05" izz="2.4e-05" ixy="0.0" iyz="0.0" ixz="-3e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="-0.000175 -0.105258 -0.167394" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link4_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.000175 -0.105258 -0.167394" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/link4_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint5" type="revolute">
+    <origin xyz="0.001353 7e-06 -0.045" rpy="0 0 0"/>
+    <parent link="$(arg robot_name)/link4_1"/>
+    <child link="$(arg robot_name)/gripper_static_1"/>
+    <axis xyz="0.0 0.0 -1.0"/>
+    <limit
+      effort="${joint5_limit_effort}"
+      lower="${joint5_limit_lower}"
+      upper="${joint5_limit_upper}"
+      velocity="${joint5_limit_vel}"/>
+    <dynamics friction="0.1" damping="0.1"/>
+  </joint>
+
+  <link name="$(arg robot_name)/gripper_static_1">
+    <inertial>
+      <origin xyz="0.005441113698877747 0.00011563276687967528 -0.019052234932530082" rpy="0 0 0"/>
+      <mass value="0.23008611256824127"/>
+      <inertia ixx="6.9e-05" iyy="8.4e-05" izz="4.3e-05" ixy="-0.0" iyz="0.0" ixz="1.8e-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="-0.001528 -0.105265 -0.122394" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/gripper_static_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.001528 -0.105265 -0.122394" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/gripper_static_1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <xacro:if value="$(arg use_gripper)">
+    <joint name="joint_gripper" type="revolute">
+      <origin xyz="-0.0074 -0.00025 -0.01315" rpy="0 0 0"/>
+      <parent link="$(arg robot_name)/gripper_static_1"/>
+      <child link="$(arg robot_name)/gripper_moving_1"/>
+      <axis xyz="-0.0 -1.0 -0.0"/>
+      <limit
+        effort="${joint_gripper_limit_effort}"
+        lower="${joint_gripper_limit_lower}"
+        upper="${joint_gripper_limit_upper}"
+        velocity="${joint_gripper_limit_vel}"/>
+      <dynamics friction="0.1" damping="0.1"/>
+    </joint>
+
+    <link name="$(arg robot_name)/gripper_moving_1">
+      <inertial>
+        <origin xyz="0.0010956016218150169 0.00031090398683926435 -0.02511314835420593" rpy="0 0 0"/>
+        <mass value="0.10060550172576842"/>
+        <inertia ixx="2.7e-05" iyy="1.9e-05" izz="1.2e-05" ixy="-0.0" iyz="0.0" ixz="2e-06"/>
+      </inertial>
+      <visual>
+        <origin xyz="0.005872 -0.105015 -0.109244" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/gripper_moving_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="silver"/>
+      </visual>
+      <collision>
+        <origin xyz="0.005872 -0.105015 -0.109244" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://interbotix_xsarm_descriptions/meshes/low_cost_robot_meshes/gripper_moving_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Define gripper link for end effector -->
+    <link name="$(arg robot_name)/ee_gripper_link"/>
+
+    <joint name="gripper" type="fixed">
+      <axis xyz="1 0 0"/>
+      <origin rpy="0 0 0" xyz="0.02 0 0"/>
+      <parent link="$(arg robot_name)/gripper_static_1"/>
+      <child link="$(arg robot_name)/ee_gripper_link"/>
+    </joint>
+  </xacro:if>
+
+  <!-- Custom control interface for low_cost_robot -->
+  <ros2_control name="XSHardwareInterface" type="system">
+    <hardware>
+      <xacro:if value="${hardware_type == 'actual'}">
+        <plugin>interbotix_xs_ros_control/XSHardwareInterface</plugin>
+        <param name="loop_hz">10</param>
+        <param name="group_name">arm</param>
+        <param name="gripper_name">joint_gripper</param>
+        <param name="joint_states_topic">joint_states</param>
+      </xacro:if>
+
+      <xacro:if value="${hardware_type == 'fake'}">
+        <plugin>fake_components/GenericSystem</plugin>
+      </xacro:if>
+
+      <xacro:if value="${hardware_type == 'gz_classic'}">
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </xacro:if>
+    </hardware>
+
+    <joint name="joint1">
+      <command_interface name="position">
+        <param name="min">"${joint1_limit_lower}"</param>
+        <param name="max">"${joint1_limit_upper}"</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint2">
+      <command_interface name="position">
+        <param name="min">"${joint2_limit_lower}"</param>
+        <param name="max">"${joint2_limit_upper}"</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint3">
+      <command_interface name="position">
+        <param name="min">"${joint3_limit_lower}"</param>
+        <param name="max">"${joint3_limit_upper}"</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint4">
+      <command_interface name="position">
+        <param name="min">"${joint4_limit_lower}"</param>
+        <param name="max">"${joint4_limit_upper}"</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint5">
+      <command_interface name="position">
+        <param name="min">"${joint5_limit_lower}"</param>
+        <param name="max">"${joint5_limit_upper}"</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <xacro:if value="$(arg use_gripper)">
+      <joint name="joint_gripper">
+        <command_interface name="position">
+          <param name="min">"${joint_gripper_limit_lower}"</param>
+          <param name="max">"${joint_gripper_limit_upper}"</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+    </xacro:if>
+  </ros2_control>
+
+  <!-- Include Gazebo configs if needed -->
+  <xacro:if value="${hardware_type == 'gz_classic'}">
+    <xacro:include filename="$(find interbotix_xsarm_descriptions)/urdf/gazebo_configs.urdf.xacro"/>
+    <xacro:gazebo_configs/>
+  </xacro:if>
+
+</robot>

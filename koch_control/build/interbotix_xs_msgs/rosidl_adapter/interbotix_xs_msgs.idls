@@ -1,0 +1,14 @@
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/ArmJoy.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/HexJoy.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointGroupCommand.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointSingleCommand.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointTemps.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointTrajectoryCommand.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/LocobotJoy.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/TurretJoy.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/MotorGains.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/OperatingModes.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/Reboot.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/RegisterValues.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/RobotInfo.idl
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/TorqueEnable.idl

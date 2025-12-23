@@ -1,0 +1,33 @@
+[0.102s] Invoking command in '/workspace/koch_control/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/koch_control/moveit_visual_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/moveit_visual_tools
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.253s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.253s]   By not providing "Findmoveit_common.cmake" in CMAKE_MODULE_PATH this
+[0.253s]   project has asked CMake to find a package configuration file provided by
+[0.253s]   "moveit_common", but CMake did not find one.
+[0.253s] 
+[0.253s]   Could not find a package configuration file provided by "moveit_common"
+[0.253s]   with any of the following names:
+[0.253s] 
+[0.254s]     moveit_commonConfig.cmake
+[0.254s]     moveit_common-config.cmake
+[0.254s] 
+[0.254s]   Add the installation prefix of "moveit_common" to CMAKE_PREFIX_PATH or set
+[0.254s]   "moveit_common_DIR" to a directory containing one of the above files.  If
+[0.254s]   "moveit_common" provides a separate development package or SDK, be sure it
+[0.254s]   has been installed.
+[0.254s] 
+[0.254s] [0m
+[0.254s] -- Configuring incomplete, errors occurred!
+[0.254s] See also "/workspace/koch_control/build/moveit_visual_tools/CMakeFiles/CMakeOutput.log".
+[0.256s] Invoked command in '/workspace/koch_control/build/moveit_visual_tools' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/koch_control/moveit_visual_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/moveit_visual_tools

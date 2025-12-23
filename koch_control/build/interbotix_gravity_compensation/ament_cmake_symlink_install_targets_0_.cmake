@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/koch_control/build/interbotix_gravity_compensation/interbotix_gravity_compensation" "TARGETS" "interbotix_gravity_compensation" "DESTINATION" "lib/interbotix_gravity_compensation")

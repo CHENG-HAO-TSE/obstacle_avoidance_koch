@@ -1,0 +1,46 @@
+{
+  "motors": {
+    "joint1": {
+      "index": 1,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "joint2": {
+      "index": 2,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "joint3": {
+      "index": 3,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "joint4": {
+      "index": 4,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "joint5": {
+      "index": 5,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "joint_gripper": {
+      "index": 6,
+      "drive_mode": 0,
+      "homing_offset": 0.0,
+      "range_min": 0,
+      "range_max": 4095
+    }
+  }
+}

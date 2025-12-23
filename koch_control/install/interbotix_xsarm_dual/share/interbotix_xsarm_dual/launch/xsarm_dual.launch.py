@@ -1,0 +1,1 @@
+/workspace/koch_control/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual/launch/xsarm_dual.launch.py

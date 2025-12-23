@@ -1,0 +1,1 @@
+/workspace/koch_control/build/interbotix_xsarm_ros_control/ament_cmake_core/interbotix_xsarm_ros_controlConfig-version.cmake

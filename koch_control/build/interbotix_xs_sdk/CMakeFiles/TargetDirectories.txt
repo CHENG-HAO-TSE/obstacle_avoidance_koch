@@ -1,0 +1,10 @@
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/uninstall.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/interbotix_xs_sdk_uninstall.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/xs_sdk.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/test.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/edit_cache.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/rebuild_cache.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/list_install_components.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/install.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/install/local.dir
+/workspace/koch_control/build/interbotix_xs_sdk/CMakeFiles/install/strip.dir

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interbotix_moveit_interface_msgs__py",
+		"source" : "/workspace/koch_control/build/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs__py"
+	}
+}

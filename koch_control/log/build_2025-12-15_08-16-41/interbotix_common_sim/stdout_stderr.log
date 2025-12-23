@@ -1,0 +1,31 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/RealSenseD415.sdf
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/camera.stl
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/model.config
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/TrossenRoboticsOfficeBuilding.sdf
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/model.config
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/VisionKit.sdf
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/model.config
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/stand.stl
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/worlds/interbotix.world
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/worlds/vision_kit.world
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/interbotix_black.png
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_black.material
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_texture.gazebo
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures/interbotix_black.png
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/package_run_dependencies/interbotix_common_sim
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/parent_prefix_path/interbotix_common_sim
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.sh
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.dsv
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.bash
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.sh
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.zsh
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.dsv
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/package.dsv
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/packages/interbotix_common_sim
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig.cmake
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig-version.cmake
+-- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/package.xml

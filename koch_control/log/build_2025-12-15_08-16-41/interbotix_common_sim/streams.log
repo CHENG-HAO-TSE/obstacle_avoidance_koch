@@ -1,0 +1,35 @@
+[0.113s] Invoking command in '/workspace/koch_control/build/interbotix_common_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/interbotix_common_sim -- -j32 -l32
+[0.128s] Invoked command in '/workspace/koch_control/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/interbotix_common_sim -- -j32 -l32
+[0.133s] Invoking command in '/workspace/koch_control/build/interbotix_common_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/interbotix_common_sim
+[0.135s] -- Install configuration: ""
+[0.135s] -- Execute custom install script
+[0.135s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/RealSenseD415.sdf
+[0.138s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/camera.stl
+[0.142s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/model.config
+[0.145s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/TrossenRoboticsOfficeBuilding.sdf
+[0.148s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/model.config
+[0.151s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/VisionKit.sdf
+[0.154s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/model.config
+[0.158s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/stand.stl
+[0.162s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/worlds/interbotix.world
+[0.165s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/worlds/vision_kit.world
+[0.169s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/interbotix_black.png
+[0.172s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_black.material
+[0.175s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_texture.gazebo
+[0.179s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures/interbotix_black.png
+[0.182s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/package_run_dependencies/interbotix_common_sim
+[0.185s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/parent_prefix_path/interbotix_common_sim
+[0.188s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.sh
+[0.192s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.dsv
+[0.196s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.sh
+[0.201s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.dsv
+[0.205s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.bash
+[0.209s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.sh
+[0.213s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.zsh
+[0.216s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.dsv
+[0.220s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/package.dsv
+[0.223s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/ament_index/resource_index/packages/interbotix_common_sim
+[0.226s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig.cmake
+[0.230s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig-version.cmake
+[0.233s] -- Symlinking: /workspace/koch_control/install/interbotix_common_sim/share/interbotix_common_sim/package.xml
+[0.238s] Invoked command in '/workspace/koch_control/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/interbotix_common_sim

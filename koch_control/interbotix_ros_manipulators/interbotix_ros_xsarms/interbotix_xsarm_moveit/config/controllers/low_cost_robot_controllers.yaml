@@ -1,0 +1,21 @@
+controller_names:
+  - /low_cost_robot/arm_controller
+  - /low_cost_robot/gripper_controller
+
+/low_cost_robot/arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+
+/low_cost_robot/gripper_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - joint_gripper

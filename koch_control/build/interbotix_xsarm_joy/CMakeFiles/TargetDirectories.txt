@@ -1,0 +1,10 @@
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/interbotix_xsarm_joy_uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/xsarm_joy.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/test.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/edit_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/rebuild_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/list_install_components.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/install.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/install/local.dir
+/workspace/koch_control/build/interbotix_xsarm_joy/CMakeFiles/install/strip.dir

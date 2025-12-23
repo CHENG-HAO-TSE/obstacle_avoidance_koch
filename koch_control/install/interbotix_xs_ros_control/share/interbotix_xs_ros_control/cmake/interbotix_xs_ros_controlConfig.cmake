@@ -1,0 +1,1 @@
+/workspace/koch_control/build/interbotix_xs_ros_control/ament_cmake_core/interbotix_xs_ros_controlConfig.cmake

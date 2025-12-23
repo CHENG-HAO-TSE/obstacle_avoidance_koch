@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/koch_control/build/interbotix_xsarm_puppet/xsarm_puppet" "/workspace/koch_control/build/interbotix_xsarm_puppet/xsarm_puppet_single" "TARGETS" "xsarm_puppet" "xsarm_puppet_single" "DESTINATION" "lib/interbotix_xsarm_puppet")

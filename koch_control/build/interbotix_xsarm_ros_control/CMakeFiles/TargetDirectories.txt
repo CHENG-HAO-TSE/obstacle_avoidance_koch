@@ -1,0 +1,9 @@
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/interbotix_xsarm_ros_control_uninstall.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/test.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/edit_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/rebuild_cache.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/list_install_components.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/install.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/install/local.dir
+/workspace/koch_control/build/interbotix_xsarm_ros_control/CMakeFiles/install/strip.dir

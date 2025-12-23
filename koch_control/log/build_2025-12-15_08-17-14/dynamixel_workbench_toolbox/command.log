@@ -1,0 +1,4 @@
+Invoking command in '/workspace/koch_control/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/dynamixel_workbench_toolbox -- -j32 -l32
+Invoked command in '/workspace/koch_control/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/koch_control/build/dynamixel_workbench_toolbox -- -j32 -l32
+Invoking command in '/workspace/koch_control/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/dynamixel_workbench_toolbox
+Invoked command in '/workspace/koch_control/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/koch_control/build/dynamixel_workbench_toolbox

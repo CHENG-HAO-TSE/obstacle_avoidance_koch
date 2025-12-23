@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8308b5e17c91e2659eac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interbotix_xsarm_puppet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xsarm_puppet_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xsarm_puppet_uninstall-d89aa466f6b6267ccf92.json",
+					"name" : "interbotix_xsarm_puppet_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e3e34ca204c1b07f8130.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xsarm_puppet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xsarm_puppet-bef70fb9e59df2d4edd6.json",
+					"name" : "xsarm_puppet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xsarm_puppet_single::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xsarm_puppet_single-decdc948527da183e81e.json",
+					"name" : "xsarm_puppet_single",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/koch_control/build/interbotix_xsarm_puppet",
+		"source" : "/workspace/koch_control/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

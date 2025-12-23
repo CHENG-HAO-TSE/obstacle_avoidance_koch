@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-162a3034974f1f13c1b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interbotix_xs_rviz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_rviz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_rviz-d98cba7c92f256e7bcef.json",
+					"name" : "interbotix_xs_rviz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_rviz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_rviz_autogen-aaae4b007960a3d5b677.json",
+					"name" : "interbotix_xs_rviz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_rviz_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_rviz_uninstall-22a5436603c26f6514ec.json",
+					"name" : "interbotix_xs_rviz_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e1662b1fb18373a1942b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/koch_control/build/interbotix_xs_rviz",
+		"source" : "/workspace/koch_control/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

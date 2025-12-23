@@ -1,0 +1,19 @@
+{
+  "package_name": "interbotix_xs_msgs",
+  "non_idl_tuples": [
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/ArmJoy.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/HexJoy.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/JointGroupCommand.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/JointSingleCommand.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/JointTemps.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/JointTrajectoryCommand.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/LocobotJoy.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:msg/TurretJoy.msg",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/MotorGains.srv",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/OperatingModes.srv",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/Reboot.srv",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/RegisterValues.srv",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/RobotInfo.srv",
+    "/workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs:srv/TorqueEnable.srv"
+  ]
+}

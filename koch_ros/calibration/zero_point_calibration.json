@@ -1,0 +1,47 @@
+{
+  "calibration_type": "zero_point_reference",
+  "method": "manual_positioning_v2",
+  "timestamp": "2025-12-16 13:29:54",
+  "description": "記錄手臂在參考姿態時每個馬達的實際位置",
+  "usage_note": "發送指令時：motor_tick = zero_tick + angle_to_tick(target_angle)",
+  "zero_positions_tick": {
+    "1": 2015,
+    "2": 3009,
+    "3": 2977,
+    "4": 2983,
+    "5": 3129,
+    "6": 2046
+  },
+  "motor_info": {
+    "1": {
+      "zero_tick": 2015,
+      "zero_angle_deg": -2.900390625,
+      "note": "此 tick 值對應手臂的參考姿態"
+    },
+    "2": {
+      "zero_tick": 3009,
+      "zero_angle_deg": 84.462890625,
+      "note": "此 tick 值對應手臂的參考姿態"
+    },
+    "3": {
+      "zero_tick": 2977,
+      "zero_angle_deg": 81.650390625,
+      "note": "此 tick 值對應手臂的參考姿態"
+    },
+    "4": {
+      "zero_tick": 2983,
+      "zero_angle_deg": 82.177734375,
+      "note": "此 tick 值對應手臂的參考姿態"
+    },
+    "5": {
+      "zero_tick": 3129,
+      "zero_angle_deg": 95.009765625,
+      "note": "此 tick 值對應手臂的參考姿態"
+    },
+    "6": {
+      "zero_tick": 2046,
+      "zero_angle_deg": -0.17578125,
+      "note": "此 tick 值對應手臂的參考姿態"
+    }
+  }
+}

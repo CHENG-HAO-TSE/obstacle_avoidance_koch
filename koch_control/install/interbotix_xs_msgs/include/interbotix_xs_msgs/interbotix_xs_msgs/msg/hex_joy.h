@@ -1,0 +1,1 @@
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_generator_c/interbotix_xs_msgs/msg/hex_joy.h

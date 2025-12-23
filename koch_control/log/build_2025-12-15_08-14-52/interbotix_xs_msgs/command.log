@@ -1,0 +1,1 @@
+Invoking command in '/workspace/koch_control/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/koch_control/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/interbotix_xs_msgs

@@ -1,0 +1,237 @@
+[0.006s] Invoking command in '/workspace/koch_control/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/koch_control/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/interbotix_xsarm_descriptions
+[0.029s] -- The C compiler identification is GNU 11.4.0
+[0.053s] -- The CXX compiler identification is GNU 11.4.0
+[0.056s] -- Detecting C compiler ABI info
+[0.086s] -- Detecting C compiler ABI info - done
+[0.089s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.089s] -- Detecting C compile features
+[0.089s] -- Detecting C compile features - done
+[0.091s] -- Detecting CXX compiler ABI info
+[0.126s] -- Detecting CXX compiler ABI info - done
+[0.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.129s] -- Detecting CXX compile features
+[0.129s] -- Detecting CXX compile features - done
+[0.130s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.232s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.264s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.302s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.302s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.358s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.370s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.393s] -- Looking for pthread.h
+[0.422s] -- Looking for pthread.h - found
+[0.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.454s] -- Found Threads: TRUE  
+[0.526s] -- Found rviz2: 11.2.23 (/opt/ros/humble/share/rviz2/cmake)
+[0.527s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.528s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.573s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.579s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.580s] -- Added test 'lint_cmake' to check CMake code style
+[0.580s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.583s] -- Added test 'xmllint' to check XML markup files
+[0.584s] -- Configuring done
+[0.586s] -- Generating done
+[0.587s] -- Build files have been written to: /workspace/koch_control/build/interbotix_xsarm_descriptions
+[0.593s] Invoked command in '/workspace/koch_control/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/koch_control/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/interbotix_xsarm_descriptions
+[0.594s] Invoking command in '/workspace/koch_control/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xsarm_descriptions -- -j32 -l32
+[0.613s] Invoked command in '/workspace/koch_control/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xsarm_descriptions -- -j32 -l32
+[0.614s] Invoking command in '/workspace/koch_control/build/interbotix_xsarm_descriptions': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xsarm_descriptions
+[0.616s] -- Install configuration: ""
+[0.617s] -- Execute custom install script
+[0.617s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/aloha_vx300s.urdf.xacro
+[0.620s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/aloha_wx250s.urdf.xacro
+[0.624s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/ar_tag.urdf.xacro
+[0.627s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/control.urdf.xacro
+[0.631s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/gazebo_configs.urdf.xacro
+[0.634s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/low_cost_robot.urdf.xacro
+[0.637s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_px100.urdf.xacro
+[0.640s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx200.urdf.xacro
+[0.644s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx250s.urdf.xacro
+[0.647s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px100.urdf.xacro
+[0.650s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px150.urdf.xacro
+[0.654s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx150.urdf.xacro
+[0.657s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx200.urdf.xacro
+[0.660s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx250.urdf.xacro
+[0.663s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300.urdf.xacro
+[0.666s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300s.urdf.xacro
+[0.669s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx200.urdf.xacro
+[0.673s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250.urdf.xacro
+[0.676s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250s.urdf.xacro
+[0.679s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/remote_view.launch.py
+[0.682s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/xsarm_description.launch.py
+[0.686s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/base.stl
+[0.689s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper.stl
+[0.692s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_bar.stl
+[0.695s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_finger.stl
+[0.698s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_prop.stl
+[0.701s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/lower_forearm.stl
+[0.704s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/shoulder.stl
+[0.708s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/upper_arm.stl
+[0.711s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/upper_forearm.stl
+[0.714s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/wrist.stl
+[0.717s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/base.stl
+[0.720s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper.stl
+[0.724s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_bar.stl
+[0.727s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_finger.stl
+[0.730s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_prop.stl
+[0.734s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/lower_forearm.stl
+[0.737s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/shoulder.stl
+[0.741s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/upper_arm.stl
+[0.744s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/upper_forearm.stl
+[0.749s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/wrist.stl
+[0.753s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/ar_tag.stl
+[0.756s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/interbotix_black.png
+[0.760s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/base_link.stl
+[0.764s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/gripper_moving_1.stl
+[0.768s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/gripper_static_1.stl
+[0.772s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/link1_1.stl
+[0.775s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/link2_1.stl
+[0.778s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/link3_1.stl
+[0.782s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/low_cost_robot_meshes/link4_1.stl
+[0.786s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/base.stl
+[0.789s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/forearm.stl
+[0.792s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper.stl
+[0.795s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_bar.stl
+[0.799s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_finger.stl
+[0.802s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_prop.stl
+[0.806s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/shoulder.stl
+[0.810s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/upper_arm.stl
+[0.815s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/base.stl
+[0.818s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/forearm.stl
+[0.821s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper.stl
+[0.826s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_bar.stl
+[0.830s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_finger.stl
+[0.834s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_prop.stl
+[0.837s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/shoulder.stl
+[0.843s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/upper_arm.stl
+[0.846s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/wrist.stl
+[0.850s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/base.stl
+[0.853s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper.stl
+[0.857s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_bar.stl
+[0.860s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_finger.stl
+[0.864s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_prop.stl
+[0.868s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/lower_forearm.stl
+[0.871s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/shoulder.stl
+[0.875s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_arm.stl
+[0.878s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_forearm.stl
+[0.882s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/wrist.stl
+[0.887s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/base.stl
+[0.890s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/forearm.stl
+[0.894s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper.stl
+[0.897s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_bar.stl
+[0.900s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_finger.stl
+[0.903s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_prop.stl
+[0.908s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/shoulder.stl
+[0.912s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/upper_arm.stl
+[0.916s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/base.stl
+[0.919s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/forearm.stl
+[0.922s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper.stl
+[0.926s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_bar.stl
+[0.929s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_finger.stl
+[0.932s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_prop.stl
+[0.936s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/shoulder.stl
+[0.939s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/upper_arm.stl
+[0.942s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/wrist.stl
+[0.945s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/base.stl
+[0.949s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/forearm.stl
+[0.952s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper.stl
+[0.955s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_bar.stl
+[0.958s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_finger.stl
+[0.962s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_prop.stl
+[0.964s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/shoulder.stl
+[0.967s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/upper_arm.stl
+[0.970s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/wrist.stl
+[0.973s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/base.stl
+[0.978s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/forearm.stl
+[0.981s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper.stl
+[0.985s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_bar.stl
+[0.987s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_finger.stl
+[0.990s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_prop.stl
+[0.993s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/shoulder.stl
+[0.996s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/upper_arm.stl
+[0.999s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/wrist.stl
+[1.002s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/base.stl
+[1.007s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/forearm.stl
+[1.010s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper.stl
+[1.013s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_bar.stl
+[1.017s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_finger.stl
+[1.020s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_prop.stl
+[1.023s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/shoulder.stl
+[1.027s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/upper_arm.stl
+[1.030s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/wrist.stl
+[1.033s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/base.stl
+[1.037s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/forearm.stl
+[1.040s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper.stl
+[1.044s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_bar.stl
+[1.047s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_finger.stl
+[1.051s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_prop.stl
+[1.054s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/shoulder.stl
+[1.058s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/upper_arm.stl
+[1.061s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/wrist.stl
+[1.065s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/base.stl
+[1.069s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper.stl
+[1.072s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_bar.stl
+[1.076s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_finger.stl
+[1.079s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_prop.stl
+[1.083s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/lower_forearm.stl
+[1.086s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/shoulder.stl
+[1.090s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_arm.stl
+[1.094s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_forearm.stl
+[1.097s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/wrist.stl
+[1.101s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/base.stl
+[1.104s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/forearm.stl
+[1.107s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper.stl
+[1.110s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_bar.stl
+[1.113s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_finger.stl
+[1.117s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_prop.stl
+[1.121s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/shoulder.stl
+[1.124s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/upper_arm.stl
+[1.127s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/wrist.stl
+[1.130s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/base.stl
+[1.134s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/forearm.stl
+[1.138s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper.stl
+[1.141s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_bar.stl
+[1.145s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_finger.stl
+[1.148s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_prop.stl
+[1.151s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/shoulder.stl
+[1.154s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/upper_arm.stl
+[1.157s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/wrist.stl
+[1.161s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/base.stl
+[1.164s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper.stl
+[1.167s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_bar.stl
+[1.170s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_finger.stl
+[1.173s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_prop.stl
+[1.178s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/lower_forearm.stl
+[1.182s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/shoulder.stl
+[1.186s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_arm.stl
+[1.189s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_forearm.stl
+[1.192s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/wrist.stl
+[1.195s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//rviz/xsarm_description.rviz
+[1.198s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/package_run_dependencies/interbotix_xsarm_descriptions
+[1.202s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/parent_prefix_path/interbotix_xsarm_descriptions
+[1.205s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.sh
+[1.210s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.dsv
+[1.213s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.sh
+[1.216s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.dsv
+[1.219s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.bash
+[1.223s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.sh
+[1.227s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.zsh
+[1.230s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.dsv
+[1.234s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.dsv
+[1.237s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/packages/interbotix_xsarm_descriptions
+[1.242s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig.cmake
+[1.246s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig-version.cmake
+[1.250s] -- Symlinking: /workspace/koch_control/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.xml
+[1.255s] Invoked command in '/workspace/koch_control/build/interbotix_xsarm_descriptions' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/interbotix_common_modules:/workspace/koch_control/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_sdk:/workspace/koch_control/install/interbotix_xs_driver:/workspace/koch_control/install/interbotix_xs_msgs:/workspace/koch_control/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_driver/lib:/workspace/koch_control/install/interbotix_xs_msgs/lib:/workspace/koch_control/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/build/interbotix_xs_modules:/workspace/koch_control/install/interbotix_xs_modules/lib/python3.10/site-packages:/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/workspace/koch_control/build/interbotix_common_modules:/workspace/koch_control/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xsarm_descriptions

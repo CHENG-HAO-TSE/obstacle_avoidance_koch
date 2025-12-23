@@ -1,0 +1,3 @@
+/workspace/koch_control/install/interbotix_xs_driver/lib/libinterbotix_xs_driver.so
+/workspace/koch_control/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/export_interbotix_xs_driverExport.cmake
+/workspace/koch_control/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake/export_interbotix_xs_driverExport-noconfig.cmake

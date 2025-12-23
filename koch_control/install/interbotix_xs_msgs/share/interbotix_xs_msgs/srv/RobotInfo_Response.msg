@@ -1,0 +1,1 @@
+/workspace/koch_control/build/interbotix_xs_msgs/rosidl_cmake/srv/RobotInfo_Response.msg

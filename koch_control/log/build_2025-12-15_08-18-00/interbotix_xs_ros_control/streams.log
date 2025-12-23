@@ -1,0 +1,37 @@
+[0.005s] Invoking command in '/workspace/koch_control/build/interbotix_xs_ros_control': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xs_ros_control -- -j32 -l32
+[0.027s] [ 22%] Built target gmock_main
+[0.029s] [ 55%] Built target gmock
+[0.030s] [ 77%] Built target interbotix_xs_ros_control
+[0.040s] [100%] Built target test_load_xs_hardware_interface
+[0.050s] Invoked command in '/workspace/koch_control/build/interbotix_xs_ros_control' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/koch_control/build/interbotix_xs_ros_control -- -j32 -l32
+[0.051s] Invoking command in '/workspace/koch_control/build/interbotix_xs_ros_control': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xs_ros_control
+[0.054s] -- Install configuration: ""
+[0.054s] -- Execute custom install script
+[0.054s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control//interbotix_xs_ros_control.xml
+[0.054s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/include/interbotix_xs_ros_control/xs_hardware_interface.hpp
+[0.054s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/library_path.sh
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/library_path.dsv
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_ros_control
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_ros_control
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/ament_prefix_path.dsv
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/path.sh
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/environment/path.dsv
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.bash
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.sh
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.zsh
+[0.055s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/local_setup.dsv
+[0.055s] -- Symlinking: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/package.dsv
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/ament_index/resource_index/packages/interbotix_xs_ros_control
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/interbotix_xs_ros_control
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_targets-extras.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/interbotix_xs_ros_controlConfig.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/interbotix_xs_ros_controlConfig-version.cmake
+[0.060s] -- Up-to-date symlink: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/package.xml
+[0.060s] -- Up-to-date: /workspace/koch_control/install/interbotix_xs_ros_control/lib/libinterbotix_xs_ros_control.so
+[0.061s] -- Up-to-date: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/export_interbotix_xs_ros_controlExport.cmake
+[0.061s] -- Up-to-date: /workspace/koch_control/install/interbotix_xs_ros_control/share/interbotix_xs_ros_control/cmake/export_interbotix_xs_ros_controlExport-noconfig.cmake
+[0.062s] Invoked command in '/workspace/koch_control/build/interbotix_xs_ros_control' returned '0': AMENT_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/koch_control/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/koch_control/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/koch_control/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/koch_control/build/interbotix_xs_ros_control

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>interbotix_xsarm_control</name>
+  <version>0.0.1</version>
+  <description>The interbotix_xsarm_control package — extended with EE pose control</description>
+
+  <maintainer email="trsupport@trossenrobotics.com">Luke Schmitt</maintainer>
+  <author email="trsupport@trossenrobotics.com">Solomon Wiznitzer</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Core dependencies -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+
+  <!-- Interbotix dependencies -->
+  <depend>interbotix_xs_sdk</depend>
+  <depend>interbotix_xs_modules</depend>
+  <depend>interbotix_xsarm_descriptions</depend>
+
+  <!-- Testing -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

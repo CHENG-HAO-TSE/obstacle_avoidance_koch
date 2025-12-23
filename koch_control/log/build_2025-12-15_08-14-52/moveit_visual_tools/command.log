@@ -1,0 +1,2 @@
+Invoking command in '/workspace/koch_control/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/koch_control/moveit_visual_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/moveit_visual_tools
+Invoked command in '/workspace/koch_control/build/moveit_visual_tools' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/koch_control/moveit_visual_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/koch_control/install/moveit_visual_tools
